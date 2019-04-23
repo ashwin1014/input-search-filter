@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+	padding: 0;
+    border: 0;
+    font-size: 100%;
+    line-height: 1;
+    vertical-align: baseline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1280px;
+}
+
+.currentItem {
+    background-color: #f8f7e8;
+}
+
+.search {
+    position: relative; 
+    margin: 0 auto ;
+}
+
+.search__icon {
+    position: absolute;
+    left: 30%;
+    top: 8px;
+}
+
+.search__input {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    width: 40%;
+    margin-top: 10%;
+    outline: none;
+    box-shadow: none;
+    text-indent: 25px;
+}
+
+
+#itemsHolder {
+    position: relative;
+    margin: 0 auto;
+    width: 42%;
+    max-height: 325px;
+    overflow-y: auto;
+    border: 1px solid #DDD;
+    border-top-width: 0;
+}
+
+.itemsHolder__item p {
+    margin-top: 0;
+}
+
+
