@@ -18,8 +18,8 @@ hr {
     max-width: 1280px;
 }
 
-.currentItem {
-    background-color: #f8f7e8;
+.selected {
+    background-color: antiquewhite;
 }
 
 .search {
@@ -55,8 +55,15 @@ hr {
     border-top-width: 0;
 }
 
-.itemsHolder__item p {
-    margin-top: 0;
+
+.itemsHolder__item {
+    cursor: pointer;
 }
 
+
+.itemsHolder__item p {
+    margin: 0 0 5px 5px;
+    padding-top: 5px;
+ }
+ 
 
