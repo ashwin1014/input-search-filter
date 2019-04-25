@@ -2,9 +2,9 @@
   "name": "input-search-filter",
   "version": "1.0.0",
   "description": "Input searchbox with filter by name, address, id, items",
-  "main": "items.js",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ashwin1014/input-search-filter/issues"
   },
-  "homepage": "https://github.com/ashwin1014/input-search-filter#readme"
+  "homepage": "https://github.com/ashwin1014/input-search-filter#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
