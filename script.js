@@ -94,7 +94,7 @@ const inputSearch = (function() {
     
                         if(elemSelected.classList) {
                             elemSelected.classList.add('selected'); 
-                            elemSelected.scrollIntoView();                           
+                            elemSelected.scrollIntoView({behavior: "smooth"});                           
                             userSearch.value = document.querySelector('.selected').children[1].textContent;
                         }
                     } else {
@@ -102,7 +102,7 @@ const inputSearch = (function() {
                         elemSelected = itemsHolder.querySelectorAll('.itemsHolder__item')[0];
                         if(elemSelected.classList) {
                             elemSelected.classList.add('selected');   
-                            elemSelected.scrollIntoView();                            
+                            elemSelected.scrollIntoView({behavior: "smooth"});                            
                             userSearch.value = document.querySelector('.selected').children[1].textContent;
                         }
                     }                
@@ -121,7 +121,7 @@ const inputSearch = (function() {
                         }
                         if(elemSelected.classList) {                       
                             elemSelected.classList.add('selected');
-                            elemSelected.scrollIntoView();   
+                            elemSelected.scrollIntoView({behavior: "smooth"});   
                             userSearch.value = document.querySelector('.selected').children[1].textContent;
                         }
                     } else {
@@ -129,7 +129,7 @@ const inputSearch = (function() {
                         elemSelected = itemsHolder.querySelectorAll('.itemsHolder__item')[len];
                         if(elemSelected.classList) {                       
                             elemSelected.classList.add('selected');
-                            elemSelected.scrollIntoView();   
+                            elemSelected.scrollIntoView({behavior: "smooth"});   
                             userSearch.value = document.querySelector('.selected').children[1].textContent;
                         }
                     }
